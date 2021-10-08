@@ -1,0 +1,14 @@
+{
+    "name": "Gym",
+    "short_name": "Gym",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#72d0f4",
+    "background_color": "#72d0f4",
+    "display": "standalone"
+}
