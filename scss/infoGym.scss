@@ -1,0 +1,220 @@
+.gym-info {
+  padding: 0px 0px 80px 0px;
+}
+.gym-info__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.gym-info__column {
+  padding: 0 15px;
+  flex: 0 1 33.333%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-sliders {
+  width: 300px;
+  overflow: hidden;
+}
+
+.gym-info__block {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 34px 34px 25px 38px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gym-info__image {
+  height: 80px;
+  width: 80px;
+  margin: 0px 0px 11px 0px;
+  img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+}
+.gym-info__title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #72d0f4;
+  margin: 0px 0px 7px 0px;
+}
+.gym-info__subtitle {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #72d0f4;
+  margin: 0px 0px 10px 0px;
+}
+.gym-info__text {
+  font-size: 12px;
+  line-height: 1.2;
+  font-style: italic;
+  color: #606060;
+}
+.gym-info__icons-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0px 0px 0px;
+}
+.icons-block_block .fas, .fab {
+  margin: 0;
+  color: #b8b8b8;
+  margin: 0px 2px 0px 0px;
+}
+.icons-block_block .fa-heart {
+  transition: all .3s ease-in-out;
+  &:hover {
+    color: red;
+  }
+}
+.icons-block_block .fa-twitter, .fa-facebook-f {
+  color: #72d0f4;
+}
+.icons-block_block .fa-thumbs-up {
+  transition: all .3s ease-in-out;
+  &:hover {
+    color: #029ec6;
+  }
+}
+.block__icon1 {
+  margin: 0px 46px 0px 0px;
+}
+.column-events__block {
+  background-color: #a5e5fe;
+  flex: 1 1 100%;
+  padding: 19px 38px 20px 29px;
+}
+.column-events__line {
+  display: flex;
+  position: relative;
+  margin: 0px 0px 29px 0px;
+  &:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+  &:first-child {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 92%;
+      height: 1px;
+      background-color: #ffffff;
+      margin: 14.5px 0px 0px 10px;
+    }
+  }
+}
+.column-events__blockL {
+  text-align: center;
+  margin: 0px 5px 0px 0px;
+  &:last-child {
+    margin: 0px 0px 0px 0px;
+  }
+}
+.column-events__title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px 0px 6px 0px;
+}
+.column-events__image {
+  width: 120px;
+  height: 70px;
+  img {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+    max-width: 100%;
+  }
+}
+.column-events__time {
+  font-size: 10px;
+  font-weight: 700;
+  color: #fe0000;
+  margin: 0px 0px 7px 0px;
+}
+.column-events__titleS {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #292929;
+  margin: 0px 0px 7px 0px;
+}
+.column-events__text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #252525;
+  margin: 0px 0px 4px 0px;
+}
+.column-events__button {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ff0000;
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 0px 20px;
+  height: 22px;
+  border: 1px solid rgba(35,35,35,0.78);
+  transition: all .3s linear;
+  &:hover {
+    border: 1px solid #ff0000;
+    color: rgba(35,35,35,0.78);
+  }
+}
+
+.column-blog__block {
+  background-color: #d4d6d6;
+  padding: 12px 20px 12px 20px;
+  flex: 1 1 100%;
+}
+.column-blog__line {
+  display: flex;
+}
+.column-blog__image {
+  width: 70px;
+  height: 70px;
+  margin: 0px 18px 9px 0px;
+  img {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+}
+.column-blog__text {
+  font-size: 13px;
+  line-height: 19px;
+  margin: 0px 0px 5px 0px;
+}
+.column-blog__date {
+  opacity: 0.5;
+  color: #000000;
+}
+.gym-info_prev {
+  &.swiper-button-prev {
+    color: #00bff0;
+  }
+  
+}
+.gym-info_next {
+  &.swiper-button-next {
+    color: #00bff0;
+  }
+}
+

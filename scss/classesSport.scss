@@ -1,0 +1,110 @@
+.classes-sport {
+  padding: 85px 0px 0px 0px;
+}
+.classes-slot-gym {
+  padding: 30px 0px 120px 0px;
+}
+.classes-sport__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.classes-sport__item {
+  
+  flex: 0 1 48%;
+  background-color: #72d0f4;
+  &:nth-child(even) {
+    background-color: #ffffff;
+  }
+  &:last-child {
+    margin: 0px 0px 30px 0px;
+  }
+  &:nth-child(odd) {
+    margin: 0px 30px 30px 0px;
+  }
+}
+.classes-item__block {
+  display: flex;
+}
+.classes-item__image {
+  img {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.classes-item__info {
+  padding: 20px;
+}
+.classes-item__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #f6f6f6;
+  margin: 0px 0px 12px 0px;
+}
+#bluss {
+  color: #72d0f4;
+}
+#blussBorder {
+  color: #72d0f4;
+  border: 1px solid rgba(114,208,244,0.78);
+}
+.classes-item__text {
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #f4f4f4;
+  margin: 0px 0px 25px 0px;
+}
+.classes-item__photo-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+}
+.photo-block__image {
+  margin: 0px 12px 0px 0px;
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+}
+.photo-block__profession {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  margin: 0px 0px 10px 0px;
+}
+.photo-block__name {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px 0px 4px 0px;
+}
+.photo-block__text {
+  font-size: 12px;
+  line-height: 1.2;
+  font-style: italic;
+  color: #f6f6f6;
+}
+.classes-item__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.classes-item__button {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 20px;
+  padding: 0px 11px;
+
+  border: 1px solid rgba(255,255,255,0.78);
+  height: 20px;
+  border-radius: 6px;
+}

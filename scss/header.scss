@@ -1,0 +1,256 @@
+/* header 1 */
+.header {
+  background-color: #00bff0;
+  &__container {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.phone {
+  &__block {
+    display: flex;
+  }
+  &__block-right {
+  }
+}
+.phone-block {
+  &__tel {
+    color: #fff;
+    margin: 0px 11px 0px 0px;
+  }
+  &__number {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 2px 0px 0px 0px;
+  }
+}
+.block-right {
+  &__icon {
+    font-size: 16px;
+    color: #fff;
+    margin: 0px 15px 0px 0px;
+    &:last-child {
+      margin: 0px 0px 0px 0px;
+    }
+    
+  }
+}
+.block-right__icon .fab {
+  transition: color .3s ease-in-out;
+  color: white;
+  &:hover {
+    color: #0684a3;
+  }
+}
+/* header 2 */
+.header-two {
+  position: relative;
+  background-color: #72d0f4;
+  &__container {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.header {
+  &__logo {
+   padding: 0px 20px 0px 0px;
+   z-index: 10;
+  }
+  &__menu {
+  }
+}
+.menu {
+  &__icon {
+  }
+  &__body {
+  }
+  &__list {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    padding: 10px 0px;
+  }
+  &__link {
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #ffffff; 
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s linear;
+  }
+}
+.home__item {
+  padding: 10px 0;
+}
+.icon-menu {
+  display: none;
+}
+.menu__sub-list {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: #fff;
+  padding: 5px;
+  min-width: 200px;
+  border-radius: 6px;
+  transition: all .3s linear;
+  li {
+    &:last-child {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+}
+body._pc .menu__list > li:hover .menu__sub-list {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transform: translate(0, 0px);
+}
+.menu__sub-link {
+  color: #72d0f4;
+  font-size: 13px;
+  font-weight: 600;
+  background: url(../img/icon/header/2.png)12px no-repeat;
+  padding: 10px 0px 10px 25px;
+  margin: 0px 0px 8px 0px;
+  transition: all .3s linear;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 6px;
+  &:hover {
+    color: white;
+    background-color: #72d0f4;
+  }
+}
+.home__item {
+  padding: 0px 22px;
+  margin: 0px 2px 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+  border: 1px solid rgba(255,255,255,0.78);
+  display: inline-block;
+}
+#home-classesSingle-item {
+  border: none;
+  &:hover {
+    color: #0684a3;
+  }
+}
+.about__item {
+  padding: 0px 22px;
+  margin: 0px 3px 0px 0px;
+  &:hover {
+    color: #0684a3;
+  }
+}
+#pricing-border-item {
+  border: 1px solid rgba(255,255,255,0.78);
+  &:hover {
+    color: #fff;
+  }
+}
+.trainers__item {
+  padding: 0px 22px;
+  margin: 0px 19px 0px 0px;
+  &:hover {
+    color: #0684a3;
+  }
+}
+.classes__item {
+  padding: 0px 22px 0px 35px;
+  margin: 0px 10px 0px 0px;
+  background: url(../img/icon/header/1.png)15% 50% no-repeat;
+  &:hover {
+    background-color: white;
+    color: #72d0f4;
+  }
+}
+.__item-yeap {
+  background-color: white;
+  color: #72d0f4;
+}
+.blog__item {
+  padding: 0px 22px;
+  margin: 0px 15px 0px 0px;
+  &:hover {
+    color: #0684a3;
+  }
+}
+#border-zaebal {
+  &:hover {
+    color: white;
+    
+  }
+}
+.contacts__item-border {
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  
+}
+.blog-item-Blog {
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  &:hover {
+    color: #fff;
+  }
+}
+.pricing__item {
+  padding: 0px 22px;
+  margin: 0px 14px 0px 0px;
+  &:hover {
+    color: #0684a3;
+  }
+}
+.contacts__item {
+  padding: 0px 22px;
+  margin: 0px 48px 0px 0px;
+  &:hover {
+    color: #0684a3;
+  }
+}
+/* ABOUT HTML */
+.about-image {
+  position: relative;
+}
+.about__item-about {
+  padding: 0px 22px;
+  margin: 0px 2px 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+  border: 1px solid rgba(255,255,255,0.78);
+  display: inline-block;
+  &:hover {
+    color: #fff;
+  }
+}
+.home__item-about {
+  border: none;
+  background-color: none;
+  transition: .3s linear;
+  &:hover {
+    color: #0684a3;
+  }
+}
+.about-image__text {
+  font-size: 30px;
+  font-weight: 300;
+  color: #feffff;
+  background-color: #00bff0;
+  display: inline-block;
+  padding: 15px 28px;
+  position: absolute;
+  bottom: -2px;
+  left: 5%;
+}
+.home__item-blog {
+  border: none;
+  &:hover {
+    color: #0684a3;
+  }
+}
